@@ -1,0 +1,21 @@
+{
+  "name": "rd-form",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Leonardo Vitale <leonardo_vitale@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/LeoVitale/rd-form",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "^1.2.1",
+    "jquery": "^3.1.1"
+  }
+}
