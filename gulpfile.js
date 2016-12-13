@@ -9,6 +9,7 @@ gulp.task('serve', ['sass'], function() {
         }
     });
     gulp.watch("src/sass/*.scss", ['sass']);
+    gulp.watch("./src/scripts/*.js").on('change', browserSync.reload);
     gulp.watch("./*.html").on('change', browserSync.reload);
 });
 
