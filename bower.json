@@ -17,6 +17,7 @@
   "dependencies": {
     "material-design-lite": "^1.2.1",
     "jquery": "^3.1.1",
-    "mdl-selectfield": "^1.0.4"
+    "mdl-selectfield": "^1.0.4",
+    "material-modal": "^0.1.2"
   }
 }
