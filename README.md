@@ -10,6 +10,7 @@ Prerequisites:
 * Node.js 4.2.2+
 * Npm
 * Gulp
+* Nodemon
 
 
 Steps to run the application
