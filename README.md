@@ -22,6 +22,8 @@ $ cd rd-form
 
 $ npm install
 
+$ bower install
+
 $ gulp
 ```
 
