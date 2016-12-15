@@ -1,6 +1,30 @@
-#dynaForm - Desafio Front End RD
-dynaForm é um plugin Jquery para adicionar um formulário de subscription em sua aplicação web
+DynaForm - Desafio Front End RD
+dynaForm is a Jquery plugin to add a subscription form in your web application
 
-##Requerimento
+##Requirements
 
-O plugin requere [jQuery.js](https://jquery.com/),  [Material Design LIte](https://getmdl.io) e [Material Modal](https://github.com/MarkRabey/material-modal) para funcionar
+The plugin requires [jQuery.js](https://jquery.com/),  [Material Design LIte](https://getmdl.io) e [Material Modal](https://github.com/MarkRabey/material-modal).
+
+Prerequisites:
+
+* Node.js 4.2.2+
+* Npm
+* Gulp
+
+
+Steps to run the application
+=======
+```
+$ git clone git@github.com:LeoVitale/rd-form.git
+
+$ cd rd-form
+
+$ npm install
+
+$ gulp
+```
+
+### Release Team
+
+* **Leonardo Vitale** &lt;leonardo_vitale@hotmail.com&gt;
+
