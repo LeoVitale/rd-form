@@ -1,4 +1,4 @@
-DynaForm - Desafio Front End RD
+#DynaForm - Desafio Front End RD
 dynaForm is a Jquery plugin to add a subscription form in your web application
 
 ##Requirements
