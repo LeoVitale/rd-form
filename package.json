@@ -18,9 +18,15 @@
   "homepage": "https://github.com/LeoVitale/rd-form#readme",
   "devDependencies": {
     "browser-sync": "^2.18.2",
-    "gulp": "^3.9.1"
+    "concurrently": "^3.1.0",
+    "express-validator": "^3.1.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1"
   },
   "dependencies": {
-    "gulp-sass": "^2.3.2"
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "gulp-sass": "^2.3.2",
+    "path": "^0.12.7"
   }
 }

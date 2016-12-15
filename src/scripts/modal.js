@@ -11,6 +11,7 @@ $(function () {
     }
   }
 
-  $(".form-container").dynaform(options);
+
+  $("#modal .modal__text").dynaform(options);
 
 });
