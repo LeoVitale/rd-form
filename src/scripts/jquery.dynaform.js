@@ -86,17 +86,16 @@
     var opts = $.extend({}, $.fn.dynaform.defaults, options);
 
     var dialog = ['<dialog class="mdl-dialog">',
-      '<h4 class="mdl-dialog__title"></h4>',
-      '<div class="mdl-dialog__content">',
-      '<p id="dialog-message">',
-      'Allowing us to collect data will let us get you the information you want faster.',
-      '</p>',
-      '</div>',
-      '<div class="mdl-dialog__actions">',
-      '<button type="button" class="mdl-button close">Ok</button>',
-      '</div>',
-      '</dialog>'
-    ].join('\n');
+                    '<h4 class="mdl-dialog__title"></h4>',
+                    '<div class="mdl-dialog__content">',
+                      '<p id="dialog-message">',
+                      '</p>',
+                    '</div>',
+                    '<div class="mdl-dialog__actions">',
+                      '<button type="button" class="mdl-button close">Ok</button>',
+                    '</div>',
+                  '</dialog>'
+                ].join('\n');
 
     var template = ['<form class="dyna-form" action="/" method="POST">',
       generateNameField(),
