@@ -6,7 +6,7 @@ var nodemon     = require('gulp-nodemon');
 gulp.task('serve', ['nodemon','sass'], function() {
    browserSync.init(null, {
 		proxy: "http://localhost:3010",
-        files: ["./**/*.*"],
+        baseDir: "./",
         port: 3000,
 	});
     gulp.watch("src/sass/*.scss", ['sass']);

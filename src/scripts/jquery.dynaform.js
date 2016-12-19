@@ -125,7 +125,7 @@
       var dialog = document.querySelector('dialog');
       var request = $.ajax({
         method: "POST",
-        url: "/",
+        url: opts.endpoint,
         data: JSON.stringify({
           'token': opts.token,
           'secret': opts.secret,
